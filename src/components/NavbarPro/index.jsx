@@ -20,7 +20,7 @@ const NavbarPro = () => {
   } 
   window.addEventListener('scroll', changeBackground)
   return (
-    <div className='w-screen h-15 bg-[url("./components/img/prueba.png")] shadow-xl fixed z-40 border-black' >
+    <div className='w-screen h-15 bg-[url("./components/img/prueba.png")] shadow-xl z-40 border-black' >
         <div className='p-1 flex justify-between items-center w-full h-full'>
             <h1 className='w-full text-3xl text-black font-semibold mr-4 sm:text-4xl px-4 font-body'>KAVANAGH GROUP SRL</h1>
             <ul className='hidden md:flex justify-between'>

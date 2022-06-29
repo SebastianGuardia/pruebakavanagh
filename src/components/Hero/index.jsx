@@ -7,6 +7,7 @@ import PagoFacil from '../img/pagofacil.png'
 import { Link, Button, Element,animateScroll} from 'react-scroll'
 import {motion} from "framer-motion"
 import { homeAnimations,homeimgAnimation } from '../animation/animation'
+import { Helmet } from 'react-helmet'
 
 
 
@@ -14,6 +15,10 @@ const Hero = () => {
   return (
     <>
     <div id='home' className='bg-[url("./components/img/prueba.png")] bg-no-repeat bg-center bg-cover w-[100%] h-[100vh]'>
+      <Helmet>
+        <title>Kavanagh Group SRL</title>
+        <meta name="keywords" content="software,web,expensas,consorcios,administración,sistema,plataforma,herramienta,gestión,edificio,administrador,liquidación,fácil,rapido,económico,sueldos,encargados,barrios cerrados,afip,pme,pagomiexpensa,rapipago,pago facil,pagofacil,combril,misexpensas"></meta>
+      </Helmet>
       <div className='w-full h-screen flex flex-col justify-between sm:py-[120px] '>
         <div className='grid md:grid-cols-2 max-w-[1240px] m-auto z-20 '>
           <motion.div className='flex flex-col justify-center md:item-start w-full px-2 py-8 z-20  '
@@ -28,13 +33,13 @@ const Hero = () => {
             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
             </span>
             <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
-            <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"><Link className='font-bold' to="sales" smooth={true} offset={-50} duration={500}>Empeza con tu demo</Link></span>
+            <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"><Link className='font-bold' to="sales" smooth={true} offset={-50} duration={500}>Empeza con tu demo</Link>   </span>
             </a>
-            <a href="#_" class="relative inline-flex items-center justify-start md:px-[70px] px-10 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
-            <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4">
-            <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+            <a href="#_" class="relative inline-flex items-center justify-start md:px-[70px] px-10 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group"><Link className='font-bold' to="contact" smooth={true} offset={-50} duration={500}>   </Link>
+            <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4"><Link className='font-bold' to="contact" smooth={true} offset={-50} duration={500}>   </Link>
+            <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"><Link className='font-bold' to="contact" smooth={true} offset={-50} duration={500}></Link>   </span>
             </span>
-            <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
+            <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-red-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"><Link className='font-bold' to="contact" smooth={true} offset={-50} duration={500}>   </Link></span>
             <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"><Link className='font-bold' to="contact" smooth={true} offset={-50} duration={500}>Contactanos</Link></span>
             </a>
 

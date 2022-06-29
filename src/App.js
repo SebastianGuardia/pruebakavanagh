@@ -1,8 +1,9 @@
 import './index.css';
 import React from "react";
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route,} from 'react-router-dom'
 import MainHome from "./Routes/mainHome";
 import CardComparison from "./Routes/CardComparison";
+import { Helmet } from 'react-helmet';
 function App() {
   return (
     <>     

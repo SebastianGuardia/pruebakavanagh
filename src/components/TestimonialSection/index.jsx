@@ -1,7 +1,6 @@
 import React from "react";
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, } from "pure-react-carousel";
+import { CarouselProvider, Slider, Slide,} from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from "@heroicons/react/outline";
 
 
 export default function MyApp() {
@@ -91,15 +90,6 @@ export default function MyApp() {
                 </div>
                         </Slide>
                     </Slider>
-                    <div className="flex items-center mt-8">
-                        <ButtonBack className="cursor-pointer " role="button" aria-label="previous slide">
-                            <ChevronDoubleLeftIcon className="w-7 text-purple-500"/>
-                        </ButtonBack>
-
-                        <ButtonNext role="button" aria-label="next slide" className="cursor-pointer ml-2">
-                        <ChevronDoubleRightIcon className="w-7 text-purple-500"/>
-                        </ButtonNext>
-                    </div>
                 </CarouselProvider>
             </div>
         </div>

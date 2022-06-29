@@ -1,6 +1,5 @@
 import React from 'react'
 import { CheckCircleIcon } from '@heroicons/react/outline'
-import { Link, Button, Element,animateScroll} from 'react-scroll'
 import {motion} from "framer-motion"
 import { advantagesAnimation } from '../animation/animation'
 import { useScroll } from '../useScroll'

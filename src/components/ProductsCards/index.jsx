@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const ProductsCards = () => {
   
   return (
-    <div id='sales' className='w-full  px-4 pt-[160px] pb-4 bg-[url("./components/img/contactobg.png")] bg-no-repeat bg-auto' >
+    <div id='#pruebas' className='w-full  px-4 pt-[160px] pb-4 bg-[url("./components/img/contactobg.png")] bg-no-repeat bg-auto' >
   
       <h2 className='text-center pb-20 font-body font-extrabold text-5xl'>Descarga tu demo y comenzá a liquidar tus expensas ahora</h2>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-10 '>
@@ -312,7 +312,7 @@ const ProductsCards = () => {
 
                         </div>
                         <div className='flex justify-center align-middle'>
-                        <a href="#_" class="relative inline-flex items-center justify-start md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
+                        <a href="http://kavanaghsoftware.no-ip.org/demos/s/instalar_kavanagh.exe" target="_blank" download class="relative inline-flex items-center justify-start md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
                             <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4 ">
                             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                             </span>
@@ -634,7 +634,7 @@ const ProductsCards = () => {
                             
                         </div>
                         <div className='flex align-middle justify-center'>
-                        <a href="#_" class="relative inline-flex items-center justify-center md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
+                        <a href="http://kavanaghsoftware.no-ip.org/demos/m/instalar_kavanagh.exe" target="_blank" download class="relative inline-flex items-center justify-center md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
                             <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4 ">
                             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                             </span>
@@ -951,7 +951,7 @@ const ProductsCards = () => {
                             </div>
                         </div>
                         <div className='flex justify-center align-middle'>
-                        <a href="#_" class="relative inline-flex items-center justify-start md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
+                        <a href="http://kavanaghsoftware.no-ip.org/demos/l/instalar_kavanagh.exe" target="_blank" download class="relative inline-flex items-center justify-start md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
                             <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4 ">
                             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                             </span>
@@ -979,7 +979,7 @@ const ProductsCards = () => {
 
         </div>
         <div className='flex justify-center align-middle gap-7 py-5'>
-          <a href="#_" class="relative inline-flex items-center justify-start md:px-[70px] px-10 py-3 overflow-hidden font-medium transition-all bg-purple-500 rounded-xl group">
+          <a href="http://kavanaghsoftware.no-ip.org/update/actualizar_kavanagh.exe" target="_blank" download class="relative inline-flex items-center justify-start md:px-[70px] px-10 py-3 overflow-hidden font-medium transition-all bg-purple-500 rounded-xl group">
             <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-purple-700 rounded group-hover:-mr-4 group-hover:-mt-4">
             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
             </span>

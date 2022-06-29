@@ -92,7 +92,7 @@ const PriceCardSection = () => {
                             </div>
                         </div>
                         <div className='flex justify-center align-middle'>
-                        <a href="#_" class="relative inline-flex items-center justify-start md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
+                        <a href="http://kavanaghsoftware.no-ip.org/demos/s/instalar_kavanagh.exe" target="_blank" download class="relative inline-flex items-center justify-start md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
                             <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4 ">
                             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                             </span>
@@ -189,7 +189,7 @@ const PriceCardSection = () => {
                             </div>
                         </div>
                         <div className='flex align-middle justify-center'>
-                        <a href="#_" class="relative inline-flex items-center justify-center md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
+                        <a href="http://kavanaghsoftware.no-ip.org/demos/m/instalar_kavanagh.exe" target="_blank" download class="relative inline-flex items-center justify-center md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
                             <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4 ">
                             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                             </span>
@@ -288,7 +288,7 @@ const PriceCardSection = () => {
                             </div>
                         </div>
                         <div className='flex justify-center align-middle'>
-                        <a href="#_" class="relative inline-flex items-center justify-start md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
+                        <a href="http://kavanaghsoftware.no-ip.org/demos/l/instalar_kavanagh.exe" target="_blank" download class="relative inline-flex items-center justify-start md:px-10 px-1 py-3 overflow-hidden font-medium transition-all bg-red-500 rounded-xl group">
                             <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-red-700 rounded group-hover:-mr-4 group-hover:-mt-4 ">
                             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
                             </span>
@@ -316,7 +316,7 @@ const PriceCardSection = () => {
 
         </div>
         <div className='flex justify-center align-middle gap-7 py-5'>
-          <a href="#_" class="relative inline-flex items-center justify-start md:px-[70px] px-10 py-3 overflow-hidden font-medium transition-all bg-purple-500 rounded-xl group">
+          <a href="http://kavanaghsoftware.no-ip.org/update/actualizar_kavanagh.exe" target="_blank" download class="relative inline-flex items-center justify-start md:px-[70px] px-10 py-3 overflow-hidden font-medium transition-all bg-purple-500 rounded-xl group">
             <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-purple-700 rounded group-hover:-mr-4 group-hover:-mt-4">
             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
             </span>
@@ -324,12 +324,12 @@ const PriceCardSection = () => {
             <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">Actualiza a la última versión (solo para abonados)</span>
             </a>
 
-            <a href="#_" class="relative inline-flex items-center justify-start md:px-[70px] px-10 py-3 overflow-hidden font-medium transition-all bg-purple-500 rounded-xl group">
-            <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-purple-700 rounded group-hover:-mr-4 group-hover:-mt-4">
-            <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+            <a href="#_" class="relative inline-flex items-center justify-start md:px-[70px] px-10 py-3 overflow-hidden font-medium transition-all bg-purple-500 rounded-xl group"><Link className='font-bold' to="/Productos"></Link>
+            <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-purple-700 rounded group-hover:-mr-4 group-hover:-mt-4"><Link className='font-bold' to="/Productos"></Link>
+            <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"><Link className='font-bold' to="/Productos"></Link></span>
             </span>
-            <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-purple-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
-            <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"><Link className='font-bold' to="/Productos" smooth={true} offset={-50} duration={500}>Conoce la diferencias entre los productos</Link></span>
+            <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-purple-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"><Link className='font-bold' to="/Productos"></Link></span>
+            <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"><Link href='/#home' className='' to="/Productos" smooth={true} offset={-50} duration={500}>Conoce la diferencias entre los productos</Link></span>
             </a> 
         </div>    
     </div>
